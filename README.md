@@ -28,14 +28,6 @@ This project is aimed to provide a user panel to access FREE and SECURE `VLESS`,
 1. **UDP transport**: VLESS and Trojan protocols on workers cannot handle UDP properly, so UDP is blocked by default (some connections like Telegram video calls etc. will not work), also UDP DNS do not work on these protocols (so DOH is supported and set by default which is also safer).
 2. **Request limit**: each worker supports 100K requests per day for VLESS and Trojan, so it's sufficient for only 2-3 users. You can use custom personal domains for bypassing limitation on VLESS/Trojan or Warp configs which are limitless.
 
-## How to use:
-- [Installation (Pages - New recommended method)](docs/pages_upload_installation_fa.md)
-
-- [Installation (Worker)](docs/worker_installation_fa.md)
-
-- [How to use](docs/configuration_fa.md)
-
-- [FAQ](docs/faq.md)
 <br>
 
 ## Supported Clients
@@ -68,10 +60,6 @@ This project is aimed to provide a user panel to access FREE and SECURE `VLESS`,
 
 ---
 
-## Stargazers Over Time
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
-
----
 
 ### Special Thanks
 - VLESS, Trojan [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk)
